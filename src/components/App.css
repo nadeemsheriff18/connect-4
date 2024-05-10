@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:110vh;
-    background-color: #1898DE;
+    height:80vh;
+    background-color: #8dcbec;
     flex-direction: column;
     gap:10px;
 }
@@ -19,9 +19,9 @@
     border: 8px solid burlywood;
     box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.4);
     z-index: 1;
-    margin-top: -25px;
-    height:80px;
-    width:300px;
+    
+    height:60px;
+    width:250px;
     
     justify-content: center;
     
@@ -32,8 +32,8 @@
     box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.4);
     z-index: 1;
     
-    height:60px;
-    width:260px;
+    height:40px;
+    width:200px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -50,8 +50,8 @@
 
 .btn{
     align-self: center;
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     font-size: 18px;
     border: 3px solid burlywood;
     background-color:aliceblue;
@@ -78,8 +78,8 @@
 }
 
 .gameBoard{
-    width:400px;
-      height:400px;
+    width:350px;
+      height:350px;
       background-color: bisque;
       border:5px solid burlywood;
       display:grid;
@@ -97,6 +97,25 @@
 }
 .player_0{
     background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #253337;
+    border: 3px solid rgb(0, 12, 14);
+    margin: 2px;
+}
+.navbar h1{
+    color:rgb(250, 251, 251);
+    font-size: 40px;
+    font-weight: 300;
+}
+.navbar .icon{
+    color:whitesmoke;
+    size: 60px;
 }
 
 @media (max-width:460px){
