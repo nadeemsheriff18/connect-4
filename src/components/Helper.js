@@ -71,7 +71,8 @@ const getPosition=(gameBoard,moveChecks)=>{
                     
                 case "0111":
                 case "0222":
-                    return i + moveChecks[check].indexes[0];        
+                    return i + moveChecks[check].indexes[0];  
+                default:          
             }
         }
     }
